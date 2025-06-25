@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Exitosa - CineMatix</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/Logo.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <span class="logo-text">CineMatix</span>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cartelera.html">Cartelera</a></li>
+                <li><a href="proximos-estrenos.html">Próximos Estrenos</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <h1 class="page-title">¡Compra Exitosa!</h1>
+        </section>
+
+        <section class="section" style="text-align: center;">
+            <div style="font-size: 4rem; margin-bottom: 2rem;">🎉</div>
+            
+            <h2 style="color: var(--text-light); margin-bottom: 2rem;">
+                ¡Gracias por tu compra en CineMatix! Tus entradas están listas.
+            </h2>
+
+            <div class="summary-card" style="max-width: 600px; margin: 0 auto;">
+                <h3>Información del Ticket</h3>
+                <div id="ticket-info">
+                    <!-- La información se cargará dinámicamente -->
+                </div>
+                
+                <div style="margin: 2rem 0; padding: 2rem; background: var(--bg-dark); border-radius: 10px;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📱</div>
+                    <p style="color: var(--accent-color); font-weight: bold;">
+                        Muestra este código en la entrada del cine.
+                    </p>
+                    <div id="qr-code" style="font-family: monospace; font-size: 1.2rem; color: var(--text-light); margin-top: 1rem;">
+                        QR-CODE-12345
+                    </div>
+                </div>
+
+                <p style="color: #ccc; margin-bottom: 2rem;">
+                    También hemos enviado tus entradas a tu correo electrónico.
+                </p>
+
+                <a href="cartelera.html" class="btn">Volver a la Cartelera</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#terminos">Términos y Condiciones</a>
+                <a href="#privacidad">Política de Privacidad</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <p>&copy; 2025 CineMatix. Todos los derechos reservados.</p>
+            <p>Métodos de Pago Aceptados: Tarjetas de Crédito y Débito</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/confirmation.js"></script>
+</body>
+</html>
+
